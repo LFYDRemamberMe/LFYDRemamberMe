@@ -25,7 +25,7 @@ void main() {
 	string text;
 	cout << "Введите частоту обновления текста в мс:" << endl;
 	cin >> i;
-	cout << "Введите текст до 10 символов:" << endl;
+	cout << "Введите текст до 10 символов:" << endl; // Eanglish
 	cin >> text;
 	for (; ; )
 	{
