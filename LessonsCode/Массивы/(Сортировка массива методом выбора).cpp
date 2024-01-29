@@ -1,6 +1,8 @@
 #include <iostream> 
 #include <algorithm> // для std::swap. В C++11 используйте заголовок <utility>
- 
+
+using namespace std;
+
 int main()
 {
 	const int length = 5;
@@ -24,12 +26,12 @@ int main()
  
 		// smallestIndex теперь наименьший элемент. 
         // Меняем местами наше начальное наименьшее число с тем, которое мы обнаружили
-		std::swap(array[startIndex], array[smallestIndex]);
+		swap(array[startIndex], array[smallestIndex]);
 	}
  
 	// Теперь, когда весь массив отсортирован - выводим его на экран
 	for (int index = 0; index < length; ++index)
-		std::cout << array[index] << ' ';
+		cout << array[index] << ' ';
  
 	return 0;
 }
