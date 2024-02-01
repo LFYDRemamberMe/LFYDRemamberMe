@@ -2,4 +2,4 @@
 - 👀 I’m interested in programing
 - 🌱 I’m currently learning C++
 - 💞️ I’m looking to collaborate with someone)
-- 📫 How to reach me: swatkaunas@tutanota.com
+- 📫 How to reach me: lfydremamberme@gmail.com
